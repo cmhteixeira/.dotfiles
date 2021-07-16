@@ -35,6 +35,7 @@ script_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 #==============
 #ln -sf $dotfiles_dir/vimrc ~/.vimrc
 ln -sf $script_dir/bashrc ~/.bashrc
+ln -sf $script_dir/bash_aliases ~/.bash_aliases
 #ln -sf $dotfiles_dir/linux-tmux ~/.tmux
 #ln -sf $dotfiles_dir/zsh/zsh_prompt ~/.zsh_prompt
 #ln -sf $dotfiles_dir/zsh/zshrc ~/.zshrc

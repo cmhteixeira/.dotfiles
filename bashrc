@@ -72,6 +72,8 @@ xterm*|rxvt*)
     ;;
 esac
 
+PS2='¬'
+
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
@@ -91,7 +93,6 @@ fi
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
-alias cls='clear'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
