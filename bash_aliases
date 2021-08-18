@@ -1,4 +1,4 @@
 #!/bin/bash
 
 alias cls='clear'
-alias projects='cd ~/Documents/Projects'
+alias projects='cd ~/Projects'
