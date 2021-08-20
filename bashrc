@@ -125,4 +125,4 @@ if ! shopt -oq posix; then
   fi
 fi
 
-
+export PATH=$PATH:/opt/gradle/gradle-7.2/bin
