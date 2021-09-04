@@ -1,3 +1,5 @@
 [user]
 	name = Carlos Teixeira
 	email = c.mh.teixeira@gmail.com
+[alias]
+	logAll = log --all --decorate --oneline --graph
