@@ -126,3 +126,4 @@ if ! shopt -oq posix; then
 fi
 
 export PATH=$PATH:/opt/gradle/gradle-7.2/bin
+export PATH=$PATH:/home/cmhteixeira/.local/share/coursier/bin
